@@ -1,0 +1,34 @@
+@import "app/scss/includes/variables";
+
+#header-section{
+    .head-content{
+        display: flex;
+        min-height: 100px;
+
+        h5{
+            flex-basis: 15%;
+        }
+
+        #navigation{
+            flex-basis: 85%;
+            text-align: right;
+
+            ul#menu-main{
+                text-align: right;
+                li{
+                    list-style: none;
+                    display: inline-block;
+                    
+                    a{
+                        vertical-align: middle;
+                        line-height: normal;
+                        display: inline-block;
+                        
+                        padding: 1.5em 1.25em;
+                        color: $color-black;
+                    }
+                }
+            }
+        }
+    }
+}

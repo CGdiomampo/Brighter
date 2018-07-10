@@ -1,0 +1,101 @@
+
+@import "app/scss/includes/grid";
+
+$gutter: 15px;
+
+footer{
+
+    background: #0c0c0c;
+    color: #FFF;
+
+    #footer{
+
+        .footer-grid{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            .footer-item{
+                flex-basis: calc(100% / 3 * 1 - 30px);
+
+                h3{
+                    font-family: 'Playfair Display', serif;
+                    font-size: 20px;
+                }
+
+                .about-us{
+                    font-family: 'Playfair Display', serif;
+                    p{
+                        font-size: 15px;
+                        line-height: 1.7;
+                    }
+                }
+
+                //social-icons
+                .social-icons{
+                    margin: 0px;
+                    padding: 0px;
+                    li{
+                        list-style: none;
+                        display: inline-block;
+                        margin-right: 10px;
+
+                        a{
+                            color: #Fff;
+                            
+                        }
+                    }
+                }
+
+                //twitter
+                .twits{
+                    margin: 0px;
+                    padding: 0px;
+                    li{
+                        display: flex;
+                        list-style: none;
+                        margin: 0px 0px 10px 0px;
+
+                        i{
+                            padding: .6em .6em .6em 0;
+                        }
+
+                        a{
+                            color: #FFF;
+                        }
+                        /*
+                        a:before { 
+                            font-family: FontAwesome;
+                            content: "\f099"; 
+                        }
+                        */
+                    }
+                }
+
+                // instagram 
+                .instagram{
+                    display: flex;
+                    flex-wrap: wrap;
+                    .inst{
+                        flex-basis: calc(100% / 4 * 1 - 10px);
+                        background: grey;
+                        margin: 5px 5px; 
+
+                        
+                        @include aspect-ratio(3,3);
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom{
+        border-top: 1px solid #252525;
+        text-align: center;
+        padding: 25px;
+        a{
+            color: #FFF;
+            text-align: center;
+        }
+    }
+}

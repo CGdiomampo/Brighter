@@ -1,0 +1,23 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+/* Reset */
+
+body{
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Container */
+
+.grid-container{
+  max-width: 1180px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}

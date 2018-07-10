@@ -1,0 +1,19 @@
+#header-section .head-content {
+  display: flex;
+  min-height: 100px; }
+  #header-section .head-content h5 {
+    flex-basis: 15%; }
+  #header-section .head-content #navigation {
+    flex-basis: 85%;
+    text-align: right; }
+    #header-section .head-content #navigation ul#menu-main {
+      text-align: right; }
+      #header-section .head-content #navigation ul#menu-main li {
+        list-style: none;
+        display: inline-block; }
+        #header-section .head-content #navigation ul#menu-main li a {
+          vertical-align: middle;
+          line-height: normal;
+          display: inline-block;
+          padding: 1.5em 1.25em;
+          color: #000; }

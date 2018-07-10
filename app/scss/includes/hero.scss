@@ -1,0 +1,34 @@
+@import "app/scss/includes/variables";
+
+#hero{
+    .hero-image{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: calc(100vh - 100px);
+        padding: 1em;
+        box-sizing: border-box;
+        color: white;
+        background: url(https://images.unsplash.com/photo-1500417148159-68083bd7333a) center center no-repeat;
+        background-size: cover;
+
+        .hero-header{
+            text-align: center;
+
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+
+            .hero-title{
+                font-size: 10vh;
+
+                margin: 0;
+                font-weight: bold;
+                line-height: .9;
+            }
+        }
+    }
+}
